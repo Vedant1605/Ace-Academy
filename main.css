@@ -1,0 +1,118 @@
+.navs{
+    border: 0x solid rgb(2, 1, 1);
+    padding: 0.25em;
+    border-radius: 0.3em;
+    box-shadow: 0.5px 0.6px 4px 0.7px #b19ab2 ;
+}
+.intro{
+    box-shadow: 1px 1px 10px 1px gray;
+    margin-bottom: 1em;
+}
+.videos{
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.945);
+}
+.videos iframe{
+    border: 1px solid rgba(107, 96, 96, 0.781);
+    margin: 1.5em 0em 0em 0em;
+    border-radius: 0.15em;
+    box-shadow: 0px 0px 7px 1px rgba(253, 14, 14, 0.932);
+    display: block;
+    margin: auto;
+    width: 300px;
+}
+.videos h4{
+    text-align: center;
+    display: block;
+    margin:2em 2em  2em 2em;
+    padding: 0.25em;
+    font-size: small;
+    border: 1px solid rgba(24, 9, 9, 0);
+    box-shadow: 0px 0px 5px 2px rgba(250, 16, 16, 0.979);
+    border-radius: 0.5em;
+    font-weight: 800;
+    color: red;
+}
+.courses{
+   display: flex;
+}
+.items{
+    margin-left: 1em;
+    border: 1px solid black;
+    text-align: center;
+}
+/* courses.html*************** */
+  
+#courses{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    align-items: center;
+}
+#courses-container h1{
+    text-align: center;
+    font-size: 41px;
+    font-family: 'Roboto Mono', monospace;
+
+}
+.box{
+border: 3px solid rgb(255, 50, 50) ;
+box-shadow:2px 2px 7px 2px rgba(0, 0, 0, 0.418);
+border-radius: 25px;
+height: 345px;
+width: 300px;
+margin-top: 23px;
+padding: 10px;
+text-align: center; 
+background-color:rgba(228, 196, 4, 0.16); 
+transition: all 1s;
+}
+.box:hover{
+transform: scale(1.1)
+}
+.box img{
+text-align: center;
+height: 2.5rem;
+width: 2.5rem;
+margin: 0em auto;
+}
+.box h3{
+font-weight: 500;
+font-family:'Bree Serif', serif ;
+padding: 2px;
+}
+.box ul li{
+list-style: none;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding: 2px;
+font-size: small;
+margin-top: 15px;
+}
+.box h3{
+    color: red;
+}
+.contact{
+    display: block;
+    margin: auto;
+    text-align: center;
+    border: 3px solid gray;
+    border-radius: 0.3em;
+    margin: 1em 1em 13em 1em;
+    padding: 1em;
+    font-size: large;
+    font-weight:700 ;
+}
+@media(min-width:500px){
+    #courses{
+        flex-direction:row;
+        justify-content: space-between;
+
+    }
+    .videos iframe{
+        width: 50rem;
+        height: 30rem;
+    }
+}
